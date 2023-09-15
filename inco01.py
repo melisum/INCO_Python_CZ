@@ -50,12 +50,3 @@ else:
     print("Computer wins!")
 
 
-
-
-# Roll a single dice
-
-# Roll multiple dice
-
-# Guess the number
-
-
