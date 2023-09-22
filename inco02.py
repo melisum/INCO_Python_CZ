@@ -62,6 +62,16 @@ draw_pyramid(4)
 #   ***
 #    *
 
+def draw_diamond(line_count):
+    draw_pyramid(line_count)
+
+    for i in range(line_count - 1, 0, -1):
+        spaces = " " * (line_count - i)
+        stars = "*" * (2 * i - 1)
+        print(spaces + stars)
+
+draw_diamond(8)
+
 # Draw square
 # %%%%%%%%
 # %      %
@@ -91,6 +101,16 @@ draw_square(8)
 # %    % %
 # %     %%
 # %%%%%%%%
+
+def draw_square(line_count):
+    for i in range(line_count):
+        for j in range(line_count):
+           if i == 0 or i == line_count - 1 or j == 0 or j == line_count -1 or i == j:
+               print("%", end="")
+           else:
+               print(" ", end="")
+        print()
+draw_square(8)
 
 # Guess the number
 
