@@ -220,11 +220,36 @@ alice_payment = calculate_payment(alice_dictionary, product_dictionary)
 print("How much does Bob pay?", bob_payment)
 print("How much does Alice pay?", alice_payment)
 
+def who_buys_more(bob_dictonary, alice_dictonary, product):
+    bob_quantity= bob_dictonary.get(product, 0)
+    alice_quantity = alice_dictonary.get(product, 0)
+
+    if bob_quantity > alice_quantity:
+        return "Bob"
+    elif bob_quantity < alice_quantity:
+        return "Alice"
+    else:
+        return "no one"
+
 # Check who buys more of specific products and print the results
 # Rice
+print(who_buys_more(bob_dictionary, alice_dictionary, "Rice"))
 # Potato
+print(who_buys_more(bob_dictionary, alice_dictionary, "Potato"))
 # Ham
+print(who_buys_more(bob_dictionary, alice_dictionary, "Ham"))
 # Apples
+print(who_buys_more(bob_dictionary, alice_dictionary, "Apples"))
 
 # Compare who buys more different products and who buys more items (more pieces)
+
+if len(bob_dictionary) > len(alice_dictionary):
+    print("Bob")
+else:
+    print("Alice")
+
+if sum(bob_dictionary.values()) > sum(alice_dictionary.values()):
+    print("Bob")
+else:
+    print("Alice")
 
