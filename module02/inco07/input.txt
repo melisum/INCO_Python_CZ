@@ -1,0 +1,36 @@
+john.doe@example.com
+jane.smith@gmail.com
+(123) 456-7890
+contact@company.co
+https://www.example.com
+555-555-5555
+987-654-3210
+01/15/2022
+<a href="https://example.com">Visit Example</a>
+03/05/2021
+172.16.0.1
+http://www.testsite.org
+www.openai.com
+192.168.1.1
+10.0.0.1
+12/31/2023
+<p>This is a paragraph.</p>
+<span class="highlighted">Highlighted Text</span>
+user12345@email-provider.net
+support-team@emailhost.org
+09/10/2023
+ftp://data.server.net
+https://www.samplewebsite.info
+11/25/2024
+203.0.113.0
+8.8.8.8
+54.230.84.185
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+<div class="content">
+  <p>Content inside a div.</p>
+</div>
+sales@business.corp
+<h1>Heading 1</h1>
