@@ -1,6 +1,16 @@
 # GIT
 
 ```
+git config --global user.name "Your Name"
+```
+Set your Git username globally.
+
+```
+git config --global user.email "youremail@example.com"
+```
+Set your Git email address globally.
+
+```
 git init
 ```
 initialize the git repository
