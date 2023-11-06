@@ -12,7 +12,9 @@ per_user_pattern = r"ticky: (INFO|ERROR) [\w ]+.*\((\w+.?\w+)\)$"
 error_pattern = r"ticky: ERROR (\w+.*) "
 
 with open(file, "r") as f:
-    for line in f:
+     """Used to open a new file """    
+
+     for line in f:
         error_match = re.search(error_pattern, line)
         if error_match:
             error_type = error_match.group(1)
