@@ -2,6 +2,7 @@ import sys
 import os
 import subprocess
 
+"""a set of functions, first of which calculates the area of a arectangle"""
 length = float(input("Enter the length of the rectangle: "))
 width = float(input("Enter the width of the rectangle: "))
 area = length * width
